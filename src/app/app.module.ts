@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { LoginComponent } from './login/login.component';
 import { FooterComponent } from './footer/footer.component';
 import { AlterComponent } from './alter/alter.component';
 import { AppmenuComponent } from './appmenu/appmenu.component';
@@ -12,15 +13,18 @@ import { SampleComponent } from './sample/sample.component';
 
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
+    LoginComponent
     FooterComponent,
     AlterComponent,
     SampleComponent,
     HomeComponent,
     AppmenuComponent,
     HeaderComponent
+
   ],
   imports: [
     BrowserModule,
