@@ -5,7 +5,6 @@ import { AppComponent } from './app.component';
 import { SampleComponent } from './sample/sample.component';
 import { AppmenuComponent } from './appmenu/appmenu.component';
 import { HomeComponent } from './home/home.component';
-import { DoneComponent } from './done/done.component';
 import { HeaderComponent } from './header/header.component';
 
 
@@ -17,8 +16,7 @@ import { HeaderComponent } from './header/header.component';
     SampleComponent,
     HomeComponent,
     AppmenuComponent,
-    HomeComponent,
-    HeaderComponent
+    HeaderComponent,
   ],
   imports: [
     BrowserModule,
