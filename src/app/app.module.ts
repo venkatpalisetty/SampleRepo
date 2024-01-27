@@ -25,8 +25,7 @@ import { SampleComponent } from './sample/sample.component';
     SampleComponent,
     HomeComponent,
     AppmenuComponent,
-    HeaderComponent
-
+    HeaderComponent,
   ],
   imports: [
     BrowserModule,
